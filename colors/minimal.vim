@@ -4,47 +4,47 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "minimal"
-hi Normal		guifg=black	ctermfg=black guibg=white
-hi NonText		guifg=black	ctermfg=black
-hi comment		guifg=black		ctermfg=black	gui=italic
-hi constant		guifg=black		ctermfg=black
-hi string guifg=blue ctermfg=blue
-hi identifier	guifg=black		ctermfg=black
-hi statement	guifg=black		ctermfg=black
-hi preproc		guifg=black		ctermfg=black
-hi type			guifg=black	ctermfg=black
-hi special		guifg=black	ctermfg=black	ctermfg=black
-hi Underlined	guifg=black		ctermfg=black	gui=underline	cterm=underline
-hi label		guifg=black	ctermfg=black
-hi operator		guifg=black	ctermfg=black
-hi delimiter guifg=blue ctermfg=blue gui=NONE cterm=NONE
 
-hi ErrorMsg		guifg=black	guifg=black	ctermfg=black
-hi WarningMsg	guifg=black		ctermfg=black
-hi ModeMsg		guifg=black	gui=NONE	ctermfg=black
-hi MoreMsg		guifg=black	gui=NONE	ctermfg=black
-hi Error		guifg=black		guifg=black	gui=underline	ctermfg=black
+hi Normal					ctermfg=black
+hi NonText				ctermfg=white
+hi Comment				ctermfg=gray
+hi Constant				ctermfg=black
+hi String					ctermfg=darkgray
+hi Identifier			ctermfg=black
+hi Statement			ctermfg=black
+hi Define					ctermfg=black
+hi Preproc				ctermfg=black
+hi Type						ctermfg=black
+hi Special				ctermfg=black
+hi Underlined			ctermfg=black cterm=underline
+hi Label					ctermfg=black
+hi Operator				ctermfg=black
+hi Delimiter			ctermfg=black
 
-hi Todo			guifg=black		guifg=black	ctermfg=black	ctermfg=black
-hi Cursor		guifg=black		guifg=black		ctermfg=black	ctermfg=black
-hi Search		guifg=black		guifg=black	ctermfg=black	ctermfg=black
-hi IncSearch	guifg=black		guifg=black	ctermfg=black	ctermfg=black
-hi LineNr		guifg=black		ctermfg=black
-hi title		guifg=black
+hi ErrorMsg				ctermfg=white ctermbg=red
+hi WarningMsg			ctermfg=black cterm=bold
+hi ModeMsg				ctermfg=black
+hi MoreMsg				ctermfg=black
+hi Error					ctermfg=black
 
-hi StatusLine    cterm=none gui=none    guifg=white ctermfg=white guibg=black ctermbg=black
-hi StatusLineNC  cterm=none gui=none    guifg=fg    ctermfg=fg    guibg=#cccbca ctermbg=white
-hi VertSplit     gui=none   guifg=black guifg=black ctermfg=black ctermfg=black
+hi Todo						ctermfg=black
+hi Search					ctermfg=black ctermbg=lightcyan
+hi IncSearch			ctermfg=black
+hi LineNr					ctermfg=lightgray
+hi Title					ctermfg=black cterm=none
 
-hi Visual		term=reverse		ctermfg=black	ctermfg=black	guifg=black		guifg=black
+hi StatusLine			ctermfg=white cterm=none ctermbg=black
+hi StatusLineNC		ctermfg=fg cterm=none ctermbg=white
+hi VertSplit			ctermfg=white ctermbg=white
 
-hi DiffChange	guifg=black		guifg=black	ctermfg=black	ctermfg=black
-hi DiffText		guifg=black		guifg=black		ctermfg=black	ctermfg=black
-hi DiffAdd		guifg=black		guifg=black		ctermfg=black		ctermfg=black
-hi DiffDelete   guifg=black			guifg=black	ctermfg=black		ctermfg=black
+hi Visual					ctermfg=black ctermbg=lightcyan
 
-hi Folded		guifg=black		guifg=black		ctermfg=black		ctermfg=black
-hi FoldColumn	guifg=black		guifg=black	ctermfg=black		ctermfg=black
-hi cIf0			guifg=black			ctermfg=black
+hi DiffChange			ctermfg=black
+hi DiffText				ctermfg=black
+hi DiffAdd				ctermfg=black
+hi DiffDelete			ctermfg=black
 
-
+hi MatchParen			ctermfg=black ctermbg=cyan
+hi Folded					ctermfg=black ctermbg=white
+hi FoldColumn			ctermfg=black
+hi cIf0						ctermfg=black
