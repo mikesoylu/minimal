@@ -7,6 +7,8 @@ let g:colors_name = "minimal"
 
 hi Normal					ctermfg=black
 hi NonText				ctermfg=white
+hi Directory			ctermfg=white
+hi SpecialKey			ctermfg=white
 hi Comment				ctermfg=gray
 hi Constant				ctermfg=black
 hi String					ctermfg=darkgray
@@ -33,9 +35,13 @@ hi IncSearch			ctermfg=black
 hi LineNr					ctermfg=lightgray
 hi Title					ctermfg=black cterm=none
 
-hi StatusLine			ctermfg=white cterm=none ctermbg=black
-hi StatusLineNC		ctermfg=fg cterm=none ctermbg=white
-hi VertSplit			ctermfg=white ctermbg=white
+
+hi StatusLineTerm		ctermfg=white cterm=none ctermbg=black
+hi StatusLineTermNC	ctermfg=fg cterm=none ctermbg=white
+hi StatusLine				ctermfg=white cterm=none ctermbg=black
+hi StatusLineNC			ctermfg=fg cterm=none ctermbg=white
+hi VertSplit				ctermfg=white ctermbg=white
+hi TabLine					ctermfg=black cterm=none ctermbg=gray
 
 hi Visual					ctermfg=black ctermbg=lightcyan
 
@@ -48,3 +54,10 @@ hi MatchParen			ctermfg=black ctermbg=cyan
 hi Folded					ctermfg=black ctermbg=white
 hi FoldColumn			ctermfg=black
 hi cIf0						ctermfg=black
+
+hi htmlBoldItalic ctermfg=black cterm=none ctermbg=none
+hi htmlBold ctermfg=black cterm=none ctermbg=none
+hi htmlBoldUnderlineItalic ctermfg=black cterm=none ctermbg=none
+hi htmlUnderlineItalic ctermfg=black cterm=none ctermbg=none
+hi htmlUnderline ctermfg=black cterm=none ctermbg=none
+hi htmlItalic ctermfg=black cterm=none ctermbg=none
